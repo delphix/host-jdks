@@ -21,7 +21,7 @@
 override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u382b05.tar.gz" \
-		"5e8f76577d56834e858a05dae29203152428d3a31d181717ebd17b204e58ad3a" \
+		"f71c6600547b472dcc8c58b2fb3d809c61e58705d1c81aa72ffbe9b8f17f5a51" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -41,7 +41,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u382b05.tar.gz" \
-		"1c23e17b7df06a29218a4500fd47d6d1ae6a84e0a1b4b8c580e0e17002c0d820" \
+		"4428dc9b6ee50c9f31e13752e88b05a7873ee91ac0f895c94982a8df88cd9ba7" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -51,7 +51,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk1.8/jdk-8.0.0.811-aix-powerpc64.tar.gz" \
-		"a0b23aeb49a4cbc108d8558bff51bd8744147ec55deaee75c2dac97629c0ff9c" \
+		"d8344d8567a014bc3b8f8bef5c5af3aedf46c4c6565f652e15d2b633edeb68f6" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -61,7 +61,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"hpux/jdk1.8/jdk-8.0.26-hpux-ia64.tar.gz" \
-		"afec8878b89ee78e4174963b6e233c901fd140f8ec8574cc3db2895e551685a2" \
+		"ee5c3e2776abfca85a89c6ecaad496265a7db271b2441bfe381912a55c915b2a" \
 		"debian/tmp/usr/share/host-jdks/jdk/hpux_ia64/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -71,7 +71,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u382b05.tar.gz" \
-		"c7f9662346e702eac98df33e6cd049b11cc23ff6ed3a1889f631c6241b5994de" \
+		"fb079293f3fdf0d4845b5eb7b8494dc133fef82634bfb33b3ec58519a29fcd8c" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -81,7 +81,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"sunos/jdk1.8/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u382b05.tar.gz" \
-		"38320243f631462c33da9dea1665e4a11ea4115cc462b3efd79e806ddf72f589" \
+		"42142d3c9d3ac460934104cbe0fef9f8fcb022f728aa82ffe2776746853cc679" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
