@@ -20,13 +20,13 @@
 
 override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u382b05.tar.gz" \
-		"f71c6600547b472dcc8c58b2fb3d809c61e58705d1c81aa72ffbe9b8f17f5a51" \
+		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u402b06.tar.gz" \
+		"1ff6612aaf1fe67d8ee164c833c07f4c97cb27159b33a26226978f3a1bf591ba" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u382b05-manifest" \
-		"7d011671f10b0f99309f071c933a39d91584890c146bb3e4c94052268c15eae3" \
+		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u402b06-manifest" \
+		"b102b065b194ce7cbfd1df3f062b4ff2fda5e6a18874d1a5a3cf755dcda90b5b" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -40,13 +40,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk1.8_172/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u382b05.tar.gz" \
-		"4428dc9b6ee50c9f31e13752e88b05a7873ee91ac0f895c94982a8df88cd9ba7" \
+		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u402b06.tar.gz" \
+		"8b983990c35d0b10431d99caa5d25d4ff0da61e1b0a857f5c670ecaa81f013df" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u382b05-manifest" \
-		"81913d3c9bb4c65c3a2a03133181cc8cf167e01839b93b6c23aee2d898704266" \
+		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u402b06-manifest" \
+		"fba8839c4101f16db9a1ff9ae48f6cdea7a4e99a197567140a52d865e9d12298" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -70,33 +70,33 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/hpux_ia64/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u382b05.tar.gz" \
-		"fb079293f3fdf0d4845b5eb7b8494dc133fef82634bfb33b3ec58519a29fcd8c" \
+		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u402b06.tar.gz" \
+		"14bdbfa15813f7e94955863e93682e420cadc26f9c37ebb12a0204809551f674" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u382b05-manifest" \
-		"cd339e7cba57dbcf2638b607b6f72f014101ada3106b15af85348b76d1d717a1" \
+		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u402b06-manifest" \
+		"d707e93a715d5b325b470af7d857f8c708a199f552025710633e86ba5305e883" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk1.8/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u382b05.tar.gz" \
-		"42142d3c9d3ac460934104cbe0fef9f8fcb022f728aa82ffe2776746853cc679" \
+		"sunos/jdk1.8/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u402b06.tar.gz" \
+		"d1a3107487ae3b246ede7e8bb5e21574e90915513ea9902b0cb54b230f3ef1ca" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk1.8/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u382b05-manifest" \
-		"9e21b5a550d9265142ffc0d33259f853853b0e134f04c6ee1869746a12afd521" \
+		"sunos/jdk1.8/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u402b06-manifest" \
+		"7de941a8aaa590883ab3a26d1a0ca1a94b9bacf4cf3380ec58741e2f0f275250" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u382b05.zip" \
-		"eade4221a276ce6488943349b563e8d127de96fde9dff943bbacf8d2857be1f5" \
+		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u402b06.zip" \
+		"85b78462866965318ad9db1e9b650dd0ebee0267ec20609ca2df5dbdd3656916" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk1.8/jdk.zip"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u382b05-manifest" \
-		"94a3d57b0350d2dc9452e722eb82998fcdb80fe4a995db8e8b09218e780ea4a8" \
+		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u402b06-manifest" \
+		"421a7250b620169ef8e7323a7e6e480d104847e6f0b67080c699f11123090863" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk1.8/manifest"
 
 	dh_install --autodest "debian/tmp/*"
