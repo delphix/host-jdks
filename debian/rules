@@ -50,6 +50,16 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
+    "linux/jdk1.8/jdk-8.0-8.30-linux-s390x.tar.gz" \
+    "0f983593f303d52238a2d1947994b7513714fb2445bf2b73bdae6ae1c0a8fa89" \
+    "debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk1.8/jdk.tar.gz"
+
+  ./scripts/fetch-file-from-artifactory.sh \
+    "linux/jdk1.8/jdk-8.0-8.30-linux-s390x-manifest" \
+    "de65326b121fc2d210a1fdf51b002482a23318e26cca4cefa847b9a602ae9ee9" \
+    "debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk1.8/manifest"
+
+	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk1.8/jdk-8.0.0.830-aix-powerpc64.tar.gz" \
 		"d4376c245c40e1093ea28565b04d59d79945c5657259c505c88bb2321964d4e0" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk1.8/jdk.tar.gz"
