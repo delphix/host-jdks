@@ -122,12 +122,12 @@ override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.15_6.tar.gz" \
 		"9dc6517a66e690d3b8e300703ba0b51a769b316a96cd6e254827bf45fb4b7142" \
-		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/jdk.tar.gz"
+		"debian/tmp/usr/share/host-jdks/jdk/linux_x64/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.15_6-manifest" \
 		"e2a634eb1d2a07857109c05ebca2fdf5b87da38881cdc8e29d61e7de44231548" \
-		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/manifest"
+		"debian/tmp/usr/share/host-jdks/jdk/linux_x64/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.15_6.tar.gz" \
@@ -142,21 +142,21 @@ override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.15_6.tar.gz" \
 		"c79d01b0ab25d363b6b4e36116406b2877ca62819318b92e3c016eeac1b7d775" \
-		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/jdk.tar.gz"
+		"debian/tmp/usr/share/host-jdks/jdk/aix_ppc64/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.15_6-manifest" \
 		"a5ca8c715e8d5ffe3f730261d73c35366162c470a0abff0dcab2c06f0295b4e1" \
-		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/manifest"
+		"debian/tmp/usr/share/host-jdks/jdk/aix_ppc64/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6.zip" \
 		"234a8bd7805060a6e28d73b8f62571aa9994ac939a89f1132aa0d0659b960a78" \
-		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/jdk.zip"
+		"debian/tmp/usr/share/host-jdks/jdk/windows_x64/jdk17/jdk.zip"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6-sha256manifest" \
 		"69f424ebfb54c4e384094f24c5317178ce9ce0cd89ba790b341719cf4261cb2a" \
-		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
+		"debian/tmp/usr/share/host-jdks/jdk/windows_x64/jdk17/manifest"
 
 	dh_install --autodest "debian/tmp/*"
