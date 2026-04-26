@@ -69,4 +69,24 @@ override_dh_install:
 		"bd3d0428a4eea7e38b73f4eac3168ead1595621273eaadbee45c16d3d192a0c9" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga.tar.gz" \
+		"76f7bce8f56d0c06936d6f8eb524e371cd6e0dee86231444f7897298e5abe77e" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/jdk.tar.gz"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-manifest" \
+		"573884e145756cc4d105f4c6964c5c0428ad0178dcd5d00c2e6288ce13ab1d66" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/manifest"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86.tar.gz" \
+		"bf8b4304c33cf9c90132b83ab912f6112bf6e15a2f06bb9dfbc46450f21c2a81" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/jdk.tar.gz"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86-manifest" \
+		"7e530c8863dd4a42a63237159365a0562c26afb6e74ca7bcd9e20fd7e02c11bf" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
+
 	dh_install --autodest "debian/tmp/*"
