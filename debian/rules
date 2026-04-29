@@ -80,13 +80,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86.tar.gz" \
-		"bf8b4304c33cf9c90132b83ab912f6112bf6e15a2f06bb9dfbc46450f21c2a81" \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86-1.tar.gz" \
+		"5352423fb1e88c4f168b9fd083a519b905ad8d4762cf053f7e4488155b90e1d7" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86-manifest" \
-		"7e530c8863dd4a42a63237159365a0562c26afb6e74ca7bcd9e20fd7e02c11bf" \
+		"sunos/jdk17/jdk17u-jdk-17.0.18-ga-x86-1-manifest" \
+		"3fff2e27a12f7d2aed8852f8f7c3d7d68fea4169e1c77b7652c0aa6f4bc8b7a2" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
 
 	dh_install --autodest "debian/tmp/*"
