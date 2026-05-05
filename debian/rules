@@ -69,4 +69,24 @@ override_dh_install:
 		"bd3d0428a4eea7e38b73f4eac3168ead1595621273eaadbee45c16d3d192a0c9" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.19.tar.gz" \
+		"8ed6180ec894212fc569878be791e5fb45fb8481dc09a82c56ba3b098e5567f7" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/jdk.tar.gz"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.19-manifest" \
+		"e33e3dafc02fee7e264bf00ace91b0ec38cbe3cb8d1d765ae7bc2da676c6c37b" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/manifest"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.19.tar.gz" \
+		"47197001a3eabc6e348952071b5544cb3eed10732cc27d7aa8d9d8d5586c349e" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/jdk.tar.gz"
+
+	./scripts/fetch-file-from-artifactory.sh \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.19-manifest" \
+		"28618d5db65de6455cd2fde98e958c0ca6528b86840fde2b4d048f0f24dfe3ff" \
+		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
+
 	dh_install --autodest "debian/tmp/*"
