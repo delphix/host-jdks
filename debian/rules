@@ -20,53 +20,53 @@
 
 override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.17_10.tar.gz" \
-		"fec4ea210af9bac50c6e927cbb9697669006f3f9c4c9cae362833fed60dd2a1a" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.19_10.tar.gz" \
+		"bf02345df856db92b613f31cc9c88e42671d1d7181e9146dbe41aac4880466a5" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.17_10-manifest" \
-		"4566758fe7a96859bf1f2959cc2847a14793973d5224a5b77c9b7113438c1e45" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.19_10-manifest" \
+		"c6be57ee86335c3899cd1a6219843a0f158da0597f36320f9b2d2c749290989f" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.17_10.tar.gz" \
-		"102757ea8e9dededf37ba3884467974d490507a8ac048810543ac085b94153f7" \
+		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10.tar.gz" \
+		"f3151ea5365ca1bf911972bd8f18937006135a26660e3d7e0a329134dd1a7f81" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.17_10-manifest" \
-		"bb49a226474aa0d0a70009b2abcaf52ed8a8c33c1d478212ff5645146d7e5751" \
+		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10-manifest" \
+		"ae2ca0f3cafec733eb3c0f126cf38cc2a34ec3f75895f7a7a1c55749d0b928cb" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.17_10.tar.gz" \
-		"43905ec52d1b9c66ab318e89dc2df835f2cfda6ce992bb05a1436f75245e5b6d" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.19_10.tar.gz" \
+		"a195cd85334697ff1dbac36bd646e079cf809b33b97eef6bab5feac920a09766" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.17_10-manifest" \
-		"cf301110d7f171fbd0ffdb0c4b6b7c35915dd2607b23343148fd846452bb6eec" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.19_10-manifest" \
+		"a52544062176c22e7deb0f71e3f199a0200385d0fb85bbc6772fb7dbd63bc107" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.17_10.tar.gz" \
-		"b60df2dd2b3bf98de1e78af55c7096f7f0b7dee1e6515792ecbfef9ee4550fab" \
+		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.19_10.tar.gz" \
+		"5d0bf100a3d0f7d0d4c0613f078afb13481127c43b6e3f2fde68f52e8fdcdec2" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.17_10-manifest" \
-		"2cf9fd0687ffd1408ea95a4fd7286014acd9b87ee42c9d15a2d5fc23b8125acb" \
+		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.19_10-manifest" \
+		"c9f5465f83669a52c267a18af2bd31dac1c116cf6dd2941f91a469e2a5613363" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.17_10.zip" \
-		"ee053e96f79fec3f5bf7665b15308c96a32f760f9cd9e33682854c75145f7500" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.zip" \
+		"c5c710d179bc6db29d68e7c9d20d15c0c9d3e51323ebc09644b8d09f38372675" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/jdk.zip"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.17_10-sha256manifest" \
-		"bd3d0428a4eea7e38b73f4eac3168ead1595621273eaadbee45c16d3d192a0c9" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10-sha256manifest" \
+		"820287b78f5a432b824a69353bb2bee8a7f9073070a843407e9966a25c707971" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
