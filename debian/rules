@@ -70,23 +70,23 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.20.1.tar.gz" \
-		"5d0874566e2977b661a0ccf478261183e5a097add3b65016de229b90eca40085" \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.21.0.3.tar.gz" \
+		"0161184f630345105d8da55dace14025cad9ccc658255565f519a9ac9365214a" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.20.1-manifest" \
-		"3a3947a3b9bc1d29b3f59c45443626116b4ca332d0f0b1e0fe6601d8efc9f0b1" \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.21.0.3-manifest" \
+		"6432481759bc9aac2848aafdc9d3ad52feb6bd7d2ebae9189221486ff466a4a3" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.20.1.tar.gz" \
-		"e925619e8a2bb3cd84b6d180643d4de2b39b8fecb333b64111e978deedba677d" \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.21.0.3.tar.gz" \
+		"a4f97b69d8fb69578dcbc21fb29ba95b27aa0281ca2c58d90b28478a86579fbb" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.20.1-manifest" \
-		"56dcb824d085ad08b8d285e3e881e8e7909ae7fb8bfddfc73144c5b0f02e83f9" \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.21.0.3-manifest" \
+		"f651f236b494e5d07e47dfb6cd69eb7b0991491374a9423bc471ddf7223ab608" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
 
 	dh_install --autodest "debian/tmp/*"
