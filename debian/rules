@@ -20,33 +20,33 @@
 
 override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz" \
-		"226644eabf1b3777b01ebf38b3b98dbcc2867d141f334143e79ae7d7a88d125a" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz" \
+		"60ae2a461b556caafcc1bcef2c95c20feee7f1d2e1d8e4c0ee0b11108d995426" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20.1_1-manifest" \
-		"0711f75488f93a723565875a91766216d0e87d857bf1e2d87a3d01b7e307cee2" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9-manifest" \
+		"9634722927e26b5e7d03a97d72f0406426472846f43561db7cb95a7b8e587d83" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz" \
-		"c30277aac20d9ce218095768234d5ebad649868206fe5829f1fbdae487e02aff" \
+		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.21_9.tar.gz" \
+		"5a57df1089caacee716aeea82e6b1c24d142a9536ce9ee31881fbe64d4e325cf" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1-manifest" \
-		"7ad03c2a14bac32c9cdd8e8efa196f4f8db10e12d21cc45482e369d90ec86f32" \
+		"linux/jdk17/OpenJDK17U-jdk_x64_linux_hotspot_17.0.21_9-manifest" \
+		"2a0da2e78dcf3fc217b0d70a37220e48888ef42818d23b62890014f28ab41942" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20.1_1.tar.gz" \
-		"d2cfca196905dc2036756b95a3b79060737ff8290a368ced592ecf502621351a" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21_9.tar.gz" \
+		"a5f12fae4709957a143799e7754825e1fafe311bcec7e552814608b504b92496" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20.1_1-manifest" \
-		"991618d04c6bc4385afa16239e6b0456031e8f6120334ead12568b830c116b1d" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21_9-manifest" \
+		"7e31670e059fcb38f506892d7149bb4a2444ee32b7a726e4da3163307ca646e9" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -70,23 +70,23 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.20.1.tar.gz" \
-		"5d0874566e2977b661a0ccf478261183e5a097add3b65016de229b90eca40085" \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.21.0.3.tar.gz" \
+		"0161184f630345105d8da55dace14025cad9ccc658255565f519a9ac9365214a" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.20.1-manifest" \
-		"3a3947a3b9bc1d29b3f59c45443626116b4ca332d0f0b1e0fe6601d8efc9f0b1" \
+		"sunos/jdk17/jdk17u-jdk_sparcv9_solaris_17.0.21.0.3-manifest" \
+		"6432481759bc9aac2848aafdc9d3ad52feb6bd7d2ebae9189221486ff466a4a3" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.20.1.tar.gz" \
-		"e925619e8a2bb3cd84b6d180643d4de2b39b8fecb333b64111e978deedba677d" \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.21.0.3.tar.gz" \
+		"a4f97b69d8fb69578dcbc21fb29ba95b27aa0281ca2c58d90b28478a86579fbb" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.20.1-manifest" \
-		"56dcb824d085ad08b8d285e3e881e8e7909ae7fb8bfddfc73144c5b0f02e83f9" \
+		"sunos/jdk17/jdk17u-jdk_x64_solaris_17.0.21.0.3-manifest" \
+		"f651f236b494e5d07e47dfb6cd69eb7b0991491374a9423bc471ddf7223ab608" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
 
 	dh_install --autodest "debian/tmp/*"
