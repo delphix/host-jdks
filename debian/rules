@@ -60,13 +60,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip" \
-		"ff3c248ddb13c80494a2aa87afe9399fe2d06559d7312ff60ded4fb358af7c3d" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.zip" \
+		"343287873763ddac260e4f351056490d78a996aee4f5d54ecd407d5efcd14f9b" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/jdk.zip"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1-sha256manifest" \
-		"e8b65cdf8da4797a31dde6305c8826b4bc149a10568cdd857b8bde660c73def0" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9-sha256manifest" \
+		"a294542dc046fb91468a98b900d17926d700cbbe3c6282acaeb5910ae80e2733" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
