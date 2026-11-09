@@ -50,13 +50,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20.1_1.tar.gz" \
-		"ad0ca3533c28f0f4fd57813eb6efe44a6848f4e3d9b09e61651564d9561462f5" \
+		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20.1_1-dlpx-100301.tar.gz" \
+		"e9164d9f25da27415b9a052c6dc79c44c47faa75e52ed2157275f11bd8585b48" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20.1_1-manifest" \
-		"010bc7a709b978727417c087f57d04ac4508e611cfb1665f1748ede7684ea097" \
+		"aix/jdk17/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20.1_1-dlpx-100301-manifest" \
+		"e4f1d4d19107d2cb9835718be6a3bf9bf404a2d3be3cbcf7e2b182169ed6e560" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
