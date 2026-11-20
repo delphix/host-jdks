@@ -20,13 +20,13 @@
 
 override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz" \
-		"519a339497a540259c54603f7b4de7ae503804222fe5334e20756985302f1c52" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21.1_2.tar.gz" \
+		"7a87e990bbb26643ef16475e433b0b7a1310c9bf0751435eb188933c16cf43cd" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9-manifest" \
-		"9634722927e26b5e7d03a97d72f0406426472846f43561db7cb95a7b8e587d83" \
+		"linux/jdk17/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21.1_2-manifest" \
+		"3b92c1a63707f50b771e59d6845dee1a51f5c79408de16242ff212d4ea40a614" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -40,13 +40,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21_9.tar.gz" \
-		"0c3c702d54b3797018eb905f9e11ebcf74325becace4fca0689a4e2590fd6182" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21.1_2.tar.gz" \
+		"52bca4e536bfa5f477173ddb489a07e3f92628a69be60283de2c3ba2c6abd531" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21_9-manifest" \
-		"7e31670e059fcb38f506892d7149bb4a2444ee32b7a726e4da3163307ca646e9" \
+		"linux/jdk17/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21.1_2-manifest" \
+		"10e71a908b54fdc0adc9d956885872464f7eb9551cbd1991e29aeb9ba9c14e89" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_s390x/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
@@ -60,13 +60,13 @@ override_dh_install:
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.zip" \
-		"343287873763ddac260e4f351056490d78a996aee4f5d54ecd407d5efcd14f9b" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.zip" \
+		"2c48f02bf7382776d606dfcb00190b4ff9e0b235ca6113b295b378bb79d9f5cf" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/jdk.zip"
 
 	./scripts/fetch-file-from-artifactory.sh \
-		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9-sha256manifest" \
-		"a294542dc046fb91468a98b900d17926d700cbbe3c6282acaeb5910ae80e2733" \
+		"windows/jdk17/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2-sha256manifest" \
+		"e8b4e9fd1189abb3874c5203e1365c6a4ce0ede444594ab312935e7dbe1063f3" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk17/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
