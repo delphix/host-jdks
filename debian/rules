@@ -89,4 +89,8 @@ override_dh_install:
 		"d994dc8223e171ae9cb464cd7b990bddac1a3b3145c6f14054869bb9b6170086" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_x86/jdk17/manifest"
 
+	./scripts/generate-sbom.sh \
+		"debian/tmp/usr/share/host-jdks/jdk" \
+		"debian/tmp/usr/share/host-jdks/host-jdks.cdx.json"
+
 	dh_install --autodest "debian/tmp/*"
